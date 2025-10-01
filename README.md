@@ -74,7 +74,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:5000/api/empleados/1" `
 ```powershell
 Invoke-RestMethod -Uri "http://127.0.0.1:5000/api/empleados/1" -Method DELETE
 ```
-## Files Explained
+#### Files Explained
 proyecto_empleados/
 - / __init__.py    Creates the Flask app and registers blueprints
 - models.py        Employee class and in-memory list
@@ -104,7 +104,7 @@ If the joke has two parts, they are shown in separate messages with a 1-second d
 - `unittest` (built-in with Python)  
 - `asyncio` (built-in with Python) 
 
-## Setup & Run the Bot 
+#### Setup & Run the Bot 
 1. Go to Discord Developer Portal and create a bot.
 2. Copy your bot token.
 3. Open bot.py and replace:
@@ -115,7 +115,7 @@ client.run('INSERT TOKEN HERE')
 ```bash
 python bot.py
 ```
-## Files Explained
+#### Files Explained
 - api.py         Function to fetch jokes from JokeAPI
 - bot.py         Discord bot implementation with commands
 - test_bot.py    Unit tests for the API function
